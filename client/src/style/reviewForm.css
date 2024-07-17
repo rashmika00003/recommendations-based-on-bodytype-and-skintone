@@ -1,0 +1,52 @@
+
+.review-form-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 2rem;
+     background-color: rgb(249, 226, 238);
+     height: 100%;
+     padding-bottom: 12%;
+   }
+   
+   .review-form-container h1 {
+     margin-bottom: 1rem;
+     font-style: italic;
+     padding-bottom: 3%;
+   }
+   
+   .review-form {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     max-width: 400px;
+   }
+   
+   .review-form label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-bottom: 1rem;
+     font-size:larger;
+   }
+   
+   .review-form select,
+   .review-form textarea {
+     width: calc(100% - 16px);
+     padding: 8px;
+     margin-top: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .review-form button {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     cursor: pointer;
+     font-size: 16px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .review-form button:hover {
+     background-color: #0056b3;
+   }
+   

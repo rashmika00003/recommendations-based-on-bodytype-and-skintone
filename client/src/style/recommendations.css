@@ -1,0 +1,181 @@
+.recommendations-container {
+  background-color:rgb(249, 226, 238) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem;
+  padding-top: -5%;
+}
+
+.recommendations-container h1,
+.recommendations-container h2 {
+  text-align: center;
+}
+
+.recommendation-header {
+  align-items: center;
+  gap: 20px;
+}
+
+.check-reviews-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 40%;
+  margin-bottom: 5%;
+  
+}
+
+.check-reviews-button:hover {
+  background-color: #218838;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f4eeee;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 15px;
+}
+
+.form input[type="number"] {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+form input[type="radio"] + label {
+  cursor: pointer;
+}
+
+form input[type="radio"] {
+  display: none;
+}
+
+form input[type="radio"]:checked + label {
+  box-shadow: 0 0 0 3px #007bff;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.skin-tone-container {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.skin-tone-label {
+  padding: 1em;
+  display: flexbox;
+  align-content: center;
+  margin-right: 10px;
+}
+
+.recommendations-list {
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-container label {
+  flex: 1;
+  min-width: 150px;
+}
+
+.filter-container select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 1rem;
+  margin: 20px 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+li img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+li p {
+  margin: 5px 0;
+}
+
+li .product-price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+li button {
+  padding: 8px 16px;
+  background-color: #FF3F6C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+li button:hover {
+  background-color: #FF3F6C;
+}
+
+.centered {
+  text-align: center;
+}
+
